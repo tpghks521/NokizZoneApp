@@ -78,7 +78,7 @@ Context context;
             System.out.println(e.toString());
         }//catch
         //----------------------------------------------------------------데이터베이스에저장하기
-        new DatabaseLiteclass(context,memberclasses);
+        //new DatabaseLiteclass(context,memberclasses);
         //----------------------------------------------------------------
     }//run
 }//class

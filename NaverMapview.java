@@ -47,7 +47,7 @@ public class NaverMapview extends NMapView {
 
         NMapOverlayManager nMapOverlayManager = new NMapOverlayManager(context, this, nMapResourceProvider);
         int markid= NMapPOIflagType.PIN;
-        poIdata = new NMapPOIdata(MainActivity.kizzoneLists.size(), nMapResourceProvider);
+        poIdata = new NMapPOIdata(DatabaseClass.DBkizzoneLists.size(), nMapResourceProvider);
         for(int locNum=0;locNum<MainActivity.arrayLists.size();locNum++) {
 
 

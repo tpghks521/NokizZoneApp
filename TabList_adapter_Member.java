@@ -112,7 +112,7 @@ vh.location.setOnClickListener(new View.OnClickListener() {
             name=itemView.findViewById(R.id.name);
             address=itemView.findViewById(R.id.address);
             viewex=itemView.findViewById(R.id.textlist);
-            img =itemView.findViewById(R.id.imageview);
+
             distance=itemView.findViewById(R.id.distance);
 
             location=itemView.findViewById(R.id.location);
